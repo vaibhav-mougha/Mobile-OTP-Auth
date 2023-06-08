@@ -82,7 +82,7 @@ function App() {
   }
 
   return (
-    <Box bg={"#4DC274"} h="100vh" pt={"10rem"} color="#005C66">
+    <Box bg={"#F3EAED"} h="100vh" pt={"10rem"} color="#001E4C">
       <Box
         // border={"3px solid white"}
         borderRadius={"3rem"}
@@ -136,12 +136,12 @@ function App() {
                     borderRadius="50%"
                     p={"0.5rem"}
                     bg={"white"}
-                    color={"#4DC274"}
+                    color={"#001E4C"}
                   >
                     <BsFillShieldLockFill size={35} />
                   </Box>
                   <Heading
-                    color={"white"}
+                    color={"#001E4C"}
                     ml={"1rem"}
                     fontSize={{ base: "1.5rem", md: "2.2rem", lg: "3rem" }}
                   >
@@ -161,7 +161,7 @@ function App() {
                   >
                     Enter your OTP
                   </Text>
-                  <Box textAlign={"center"}>
+                  <Box textAlign={"center"} pl={"1rem"}>
                     <OtpInput
                       value={otp}
                       onChange={setOtp}
@@ -175,12 +175,12 @@ function App() {
                   <Button
                     onClick={onOTPVerify}
                     mt="2rem"
-                    bg={"#005C66"}
+                    bg={"#001E4C"}
                     color={"white"}
                     _hover={{
                       bg: "white",
-                      color: "#005C66",
-                      border: "3px solid #005C66",
+                      color: "#001E4C",
+                      border: "3px solid #001E4C",
                     }}
                   >
                     {loading && <Spinner color="white" size="md" />}
@@ -200,7 +200,7 @@ function App() {
                     borderRadius="20%"
                     w={{ base: "3rem", md: "3rem", lg: "3rem" }}
                     bg={"white"}
-                    color={"#4DC274"}
+                    color={"#001E4C"}
                     display={"flex"}
                     justifyContent={"center"}
                     alignItems={"center"}
@@ -228,13 +228,13 @@ function App() {
                   </Box>
                   <Button
                     mt="2rem"
-                    bg={"#005C66"}
+                    bg={"#001E4C"}
                     onClick={onSignup}
                     color={"white"}
                     _hover={{
                       bg: "white",
-                      color: "#005C66",
-                      border: "3px solid #005C66",
+                      color: "#001E4C",
+                      border: "3px solid #001E4C",
                     }}
                   >
                     {loading && <Spinner color="white" size="md" mr={"2rem"} />}
